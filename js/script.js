@@ -189,7 +189,7 @@ function applyQuickFilter(filterType) {
 function showRandomQuestion(question) {
     questionsGrid.innerHTML = `
         <div class="random-question-highlight">
-            <h3>🎲 Pregunta aleatoria</h3>
+            <h3>Pregunta aleatoria</h3>
             ${createQuestionCard(question)}
             <button class="load-more-btn" onclick="applyQuickFilter('aleatorio')">
                 <i class="fas fa-random"></i> Otra pregunta aleatoria
@@ -488,5 +488,6 @@ additionalStyles.textContent = `
         }
     }
 `;
+
 
 document.head.appendChild(additionalStyles);
