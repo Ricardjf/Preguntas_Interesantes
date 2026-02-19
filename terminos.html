@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos de Uso - ConversaMaster</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <style>
+        .legal-content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+        
+        .legal-content h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-family: var(--font-secondary);
+        }
+        
+        .legal-content .date {
+            color: var(--gray);
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+        
+        .legal-content h2 {
+            color: var(--dark);
+            margin: 30px 0 15px;
+            font-size: 1.5rem;
+            font-family: var(--font-secondary);
+        }
+        
+        .legal-content h3 {
+            color: var(--dark);
+            margin: 20px 0 10px;
+            font-size: 1.2rem;
+        }
+        
+        .legal-content p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+        
+        .legal-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        .legal-content li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: var(--text-light);
+        }
+        
+        .legal-content .highlight-box {
+            background: rgba(255,107,53,0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary);
+            margin: 20px 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+        
+        .back-link i {
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .legal-content {
+                padding: 20px;
+                margin: 20px;
+            }
+            
+            .legal-content h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header (copiado de index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-message"></i>
+                    <h1>Conversa<span class="highlight">Master</span></h1>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="index.html#categorias" class="nav-link">Categorias</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido legal -->
+    <main class="legal-content">
+        <h1>Términos de Uso</h1>
+        <div class="date">Última actualización: 18 de febrero de 2026</div>
+        
+        <div class="highlight-box">
+            <strong> Resumen simple:</strong> Al usar este sitio, aceptas estos términos. Es solo un sitio de preguntas para conversar, sin complicaciones.
+        </div>
+
+        <h2>1. Aceptación de los términos</h2>
+        <p>Al acceder y usar ConversaMaster, aceptas cumplir con estos términos. Si no estás de acuerdo, por favor no uses el sitio.</p>
+
+        <h2>2. Uso del sitio</h2>
+        <p>Este sitio está diseñado para:</p>
+        <ul>
+            <li> Ver preguntas para conversaciones</li>
+            <li> Guardar preguntas favoritas localmente en tu navegador</li>
+            <li> Compartir las preguntas con amigos</li>
+            <li> Usarlo como herramienta social</li>
+        </ul>
+        
+        <p><strong>No está permitido:</strong></p>
+        <ul>
+            <li> Copiar masivamente el contenido para crear otro sitio similar</li>
+            <li> Usar el sitio para actividades ilegales</li>
+            <li> Intentar hackear o dañar el sitio</li>
+            <li> Hacer spam o publicidad no autorizada</li>
+        </ul>
+
+        <h2>3. Contenido del sitio</h2>
+        <p>Las preguntas y el código son originales. Puedes usar las preguntas para conversaciones personales, pero no para crear un negocio compitiendo directamente con este sitio.</p>
+        
+        <div class="highlight-box">
+            <strong> En español claro:</strong> Puedes usar las preguntas para hablar con tus amigos, pareja o familia. No copies todo el sitio para hacer otro igual.
+        </div>
+
+        <h2>4. Favoritos y datos locales</h2>
+        <p>Los favoritos se guardan SOLO en tu navegador (localStorage). Nosotros no tenemos acceso a esa información. Si borras los datos de tu navegador, perderás tus favoritos.</p>
+
+        <h2>5. Publicidad (Google AdSense)</h2>
+        <p>Usamos Google AdSense para mostrar anuncios. Google puede usar cookies para personalizar los anuncios. Al usar el sitio, aceptas esto. Para más información, consulta nuestra <a href="privacidad.html">Política de Privacidad</a>.</p>
+
+        <h2>6. Enlaces a otros sitios</h2>
+        <p>El sitio puede contener enlaces a sitios externos (como en los anuncios). No nos responsabilizamos por el contenido de esos sitios.</p>
+
+        <h2>7. Limitación de responsabilidad</h2>
+        <p>Este sitio se proporciona "tal cual". No garantizamos que esté libre de errores o disponible 24/7 (es un proyecto personal). No nos hacemos responsables por daños derivados del uso del sitio.</p>
+
+        <h2>8. Modificaciones</h2>
+        <p>Podemos actualizar estos términos ocasionalmente. Los cambios serán publicados en esta página con la fecha actualizada.</p>
+
+        <h2>9. Contacto</h2>
+        <p>Si tienes preguntas sobre estos términos, puedes contactarnos en:</p>
+        <ul>
+            <li><i class="fas fa-envelope" style="color: var(--primary);"></i> contacto@tudominio.tk</li>
+        </ul>
+
+        <h2>10. Ley aplicable</h2>
+        <p>Estos términos se rigen por las leyes del país donde resida el propietario del sitio.</p>
+
+        <a href="index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i> Volver al inicio
+        </a>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <i class="fas fa-message"></i>
+                        <span>ConversaMaster</span>
+                    </div>
+                    <p>Las mejores preguntas para conversaciones significativas.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacidad.html">Política de privacidad</a></li>
+                        <li><a href="terminos.html">Términos de uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menú móvil (copiado de script.js)
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navMenu = document.getElementById('navMenu');
+        
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', () => {
+                navMenu.classList.toggle('show');
+            });
+        }
+        
+        // Cerrar menú al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            if (navMenu && navMenu.classList.contains('show') && 
+                !navMenu.contains(e.target) && 
+                !mobileMenuBtn.contains(e.target)) {
+                navMenu.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>
